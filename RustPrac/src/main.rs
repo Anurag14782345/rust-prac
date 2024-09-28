@@ -103,6 +103,17 @@ fn main() {
     println!("{:?}",marks);
     println!("{:?}",marks.len());
     match marks.get("py"){
-        some()
+        Some(score)=> println!("you scored {} marks in py",score),
+     
+        None=> println!("sorry")
     }
+    // marks.remove("C");
+    
+    // println!("{:?}",marks);
+    // println!("{:?}",marks.len());
+    for(sub,marks) in &marks{
+        println!("you got {} in {}", marks , sub);
+    }
+    println!("did you check the marks for {}",marks.contains_key("C++"));
+    println!("{}",marks.contains_key("pp"));
 }
