@@ -74,12 +74,25 @@
 //     rec.calc();
 // }
 
-fn main(){
-    let mut v:Vec<i128> = vec![1,2,3,4,5];
-    println!("{:?}",v);
-    v.push(12);
-    v(2).push(11);
-    println!("{:?}",v);
+// fn main(){
+//     let mut v:Vec<i128> = vec![1,2,3,4,5];
+//     println!("{:?}",v);
+//     v.push(12);
+//     v(2).push(11);
+//     println!("{:?}",v);
 
 
+// }
+// use std::env;
+// fn  main(){
+//     let args: Vec<String> = env::args().collect();
+//     println!("{}",args[1]);
+//     for args in args.iter(){
+//         println!("{}",args);
+//     }
+// }
+
+use std::collections::hashmap ;
+fn main() {
+    let mut marks: Hashmap
 }
