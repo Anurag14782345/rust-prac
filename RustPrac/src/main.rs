@@ -92,7 +92,17 @@
 //     }
 // }
 
-use std::collections::hashmap ;
+use std::collections::HashMap ;
 fn main() {
-    let mut marks: Hashmap
+    let mut marks: HashMap<&str,i32> = HashMap::new();
+    marks.insert("Rust",22);
+    marks.insert("C++",33);
+    marks.insert("C",33);
+    marks.insert("py",33);
+
+    println!("{:?}",marks);
+    println!("{:?}",marks.len());
+    match marks.get("py"){
+        some()
+    }
 }
